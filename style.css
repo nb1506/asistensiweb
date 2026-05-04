@@ -26,7 +26,9 @@
   scroll-behavior: smooth;
 }
 
-html {}
+html {
+
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -402,8 +404,9 @@ nav ul li a {
   font-family: "Roboto", sans-serif;
   background: var(--secondaryBackgroundColor);
   border: 1px solid var(--borderColor);
-  border-radius: 3px;
+  border-radius: 7px;
   resize: none;
+  margin-bottom: 10;
 }
 
 .contact-form input::placeholder,
